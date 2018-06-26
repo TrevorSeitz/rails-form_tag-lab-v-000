@@ -1,11 +1,11 @@
 <h1>Student Form</h1>
 
-<form action="<%= new_student_path %>" method="POST">
+<form action="<%= student_path %>" method="POST">
   <label>First Name:</label><br>
   <input type="text" id="first_name" name="student[first_name]"><br>
  
   <label>Last Name:</label><br>
   <textarea id="last_name" name="student[last_name]"></textarea><br>
  
-  <%= submit_tag value "Submit Student" %>
+  <input type="submit" value="Submit Student">
 </form>
