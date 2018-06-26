@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :students
+  resources :student
   get '/students/:id', to: 'students#show', as: 'student'
 
 end
